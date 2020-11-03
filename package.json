@@ -16,6 +16,7 @@
     "bootstrap": "^4.5.3",
     "eslint": "^7.12.1",
     "jsx": "^0.9.89",
+    "local-ip-url": "^1.0.3",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",

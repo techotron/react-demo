@@ -23,6 +23,7 @@ rules: {
       allow: ["warn", "error"]
     }],
   "no-trailing-spaces": "error",
+  "@typescript-eslint/no-var-requires": "off",
   "react/prop-types": "error",
   "no-unused-vars": "error",
   "no-undef": "error",
