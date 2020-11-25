@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route } from 'react-router-dom';
 
-const localIpUrl = require('local-ip-url');
+declare const window: any;
 
 function Router(): any {
     return (
@@ -12,7 +12,7 @@ function Router(): any {
                     render={() =>
                         <span>
                             <h1>Welcome to React Demo!</h1>
-                            <h3>IP Address: <b>{localIpUrl()}</b></h3>
+                            <h3>API_URL: {window._env_.API_URL}</h3>
                         </span>
                     }
                 />
