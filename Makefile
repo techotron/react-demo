@@ -22,3 +22,5 @@ docker-lint:
 			--ext .tsx,.ts \
 			/data/src
 lint: build-lint docker-lint
+up:
+	npm start
