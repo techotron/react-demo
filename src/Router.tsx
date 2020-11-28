@@ -12,7 +12,7 @@ function Router(): any {
                     render={() =>
                         <span>
                             <h1>Welcome to React Demo!</h1>
-                            <h3>API_URL: {window._env_.API_URL}</h3>
+                            <h3>API_URL: {window._env_.REACT_APP_API_URL}</h3>
                         </span>
                     }
                 />
